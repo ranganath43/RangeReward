@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_stakingToken",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_rewardsToken",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "goldToken",
+				"outputs": [
+					{
+						"internalType": "contract GoldToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "silverToken",
+				"outputs": [
+					{
+						"internalType": "contract SilverToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SolidityByExample/MyStake.sol": "Mystake"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SolidityByExample/MyStake.sol": {
+			"keccak256": "0x2529d7554deb77d8d61730381e19839ebeca29268461643376174ceb3794ab77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8414d57a7f5855e2012c246bbf0e87c00d2be01c42ac51bdde6fe575a4960eb3",
+				"dweb:/ipfs/QmeREHWR2hNZifVqyss9avLdkYib8VXoE1HEdnnmG2rYr9"
+			]
+		}
+	},
+	"version": 1
+}

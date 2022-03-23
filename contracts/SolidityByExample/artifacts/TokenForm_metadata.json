@@ -1,0 +1,233 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Range",
+						"name": "_range",
+						"type": "address"
+					},
+					{
+						"internalType": "contract mRange",
+						"name": "_mRange",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasStaked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isStaking",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "issueTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mRangeToken",
+				"outputs": [
+					{
+						"internalType": "contract mRange",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rangeToken",
+				"outputs": [
+					{
+						"internalType": "contract Range",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stakers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "stakingBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unstakeTokens",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SolidityByExample/Staking.sol": "TokenForm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SolidityByExample/Range.sol": {
+			"keccak256": "0x383a2810906866d90955053711b5640461be28f738387d9fb9719703156cccc6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8f049b710dccca4777a7f08a72eadb38586ef4b7bfa929e1c5747844cad88bc7",
+				"dweb:/ipfs/QmWduwnANU1nyvs3p1DmsPhicoUB9r6ex971ugbwVMhMHo"
+			]
+		},
+		"contracts/SolidityByExample/Staking.sol": {
+			"keccak256": "0x11982d218079b62ecbdfd6316b84852248f1efae7d32481e7d4b31ca2af9fe97",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://90bffbcb02685c14a3e6152f6d7ed7cc1d0c770c768eefe91b2c1361ccc0eef3",
+				"dweb:/ipfs/QmapiEwxkuzuEqJ9bD1Hppkc3AUdpzsKV6x1Cd5yUUjjhy"
+			]
+		},
+		"contracts/SolidityByExample/mRange.sol": {
+			"keccak256": "0xad3d321ce96fee9a6af11a099b3e910bccc7cfca63f63ce8582c3afc2bd80f89",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8d18af6144228371bfe5c74cd01903dfd0062f13704775ab11afbdd7ca8c0771",
+				"dweb:/ipfs/QmVcpf4SwD9sCVdDtHGr2ThGGmQvxf2wePQmbSN9jfPzq2"
+			]
+		}
+	},
+	"version": 1
+}
